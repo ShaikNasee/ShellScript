@@ -2,10 +2,10 @@
 echo "git is installing "
 echo "installation is started"
 if [ "$(uname)" == "Liunx"];
-then 
+then {
     echo "this is linux so installing git"
     sudo apt install git -y
-
+}
 else {
     echo "not installing git "
 }
