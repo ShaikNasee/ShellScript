@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "git is installing "
 echo "installation is started"
-if [ "$(uname)" == "Liunx"];
+if  [ "$(uname)" == "Linux"] ;
 then {
     echo "this is linux so installing git"
     sudo apt install git -y
