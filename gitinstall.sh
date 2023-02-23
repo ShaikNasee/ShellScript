@@ -8,3 +8,4 @@ then {
 else {
     echo "not installing git "
 }
+fi
